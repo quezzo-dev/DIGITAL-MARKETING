@@ -2,59 +2,59 @@
     section.main
         img(src="~/assets/images/mount.svg").main__background-img
         full-page(ref="fullpage" :options="options")
-            //- section.main__section.section
-            //-     .container
-            //-         .main__section-wrapper-first
-            //-             h1.main__section-title DIGITAL <span class="accent main__section-title-accent">MARKETING</span>
-            //-             p.main__section-description Раскроем потенциал вашего бизнеса, благодаря комплексному подходу в продвижении
-            //- section.main__section.section
-            //-     .container
-            //-         .main__section-wrapper-second
-            //-              p.main__section-text.main__section-text-second Занимается продвижением оффлайн-брендов в цифровой среде. Основываясь на анализе аудитории, продукта и конкурентов, предлагаем комплексные услуги для вашего бизнеса: от разработки стратегии продвижения до ее реализации.
-            //-              ul.main__section-list-second
-            //-                 li.main__section-item-second(v-for="(item, index) in items")
-            //-                     a.main__section-item-text-second {{item.text}}
-            //- section.main__section.section
-            //-     .container
-            //-         .main__section-wrapper-third
-            //-             h2.main__section-subtitle Агентство <span class="accent">FOURO</span>
-            //-             p.main__section-description – команда профессионалов-единомышленников в области digital-маркетинга, фанатеющих от своей работы. <br><br> Философия нашего агентства проста – создавать эффективные проекты по продвижению бизнеса в цифровой среде.
-            //-             Button(:buttonText="btnText").main__section-button-third
-            //- section.main__section.section
-            //-     .container
-            //-         .main__section-wrapper-fourth
-            //-             .main__section-leftside
-            //-                 h2.main__section-subtitle разработка сайтов
-            //-                 p.main__section-description Умеем не просто делать новые сайты, или производить апгрейд текущих – мы делаем инструменты для привлечения клиентов и зарабатывания денег.
-            //-                 Button(:buttonText="btnText").main__section-button-fourth
-            //-             .main__section-rightside
-            //- section.main__section.section
-            //-     .container
-            //-         .main__section-wrapper-fifth
-            //-             .main__section-leftside
-            //-                 h2.main__section-subtitle Анализ и аудит
-            //-                 p.main__section-description Сделаем полный анализ работы сайта - от получения посетителей до нужной конверсии. Проверим тепловые карты, микроконверсии и настроим нужные цели для систем аналитики яндекса, гугла и call-tracking.
-            //-                 Button(:buttonText="btnText").main__section-button-fourth
-            //-             .main__section-rightside
-            //- section.main__section.section
-            //-     .container
-            //-         .main__section-wrapper-sixth
-            //-             h2.main__section-subtitle реклама и продвижение
-            //-             p.main__section-description Ваш бизнес может получать рекламный трафик не только из контекста и из социальных сетей. В зависимости от сферы деятельности, эффективность такой рекламы может быить даже выше традиционных платных каналов
-            //-             Button(:buttonText="btnText").main__section-button-third
-            //- section.main__section.section
-            //-     .container
-            //-         .main__section-wrapper-seventh
-            //-             ul.main__section-cases-list
-            //-                 li(v-for="(caseInfo, index) in cases").main__section-cases-item
-            //-                     h2.main__section-cases-item-subtitle {{ caseInfo.subtitle }}
-            //-                     p.main__section-cases-item-text {{ caseInfo.text }}
-            //-             .main__section-image-wrapper
-            //-                 img(src="~/assets/images/fish.png").main__section-image-seventh
-            //-             ul.main__section-works-list
-            //-                 li(v-for="(work, index) in works").main__section-works-item
-            //-                     h2.main__section-works-item-subtitle {{work.subtitle}}
-            //-                     img(:src="work.img").main__section-works-item-img
+            section.main__section.section
+                .container
+                    .main__section-wrapper-first
+                        h1.main__section-title DIGITAL <span class="accent main__section-title-accent">MARKETING</span>
+                        p.main__section-description Раскроем потенциал вашего бизнеса, благодаря комплексному подходу в продвижении
+            section.main__section.section
+                .container
+                    .main__section-wrapper-second
+                         p.main__section-text.main__section-text-second Занимается продвижением оффлайн-брендов в цифровой среде. Основываясь на анализе аудитории, продукта и конкурентов, предлагаем комплексные услуги для вашего бизнеса: от разработки стратегии продвижения до ее реализации.
+                         ul.main__section-list-second
+                            li.main__section-item-second(v-for="(item, index) in items")
+                                a.main__section-item-text-second {{item.text}}
+            section.main__section.section
+                .container
+                    .main__section-wrapper-third
+                        h2.main__section-subtitle Агентство <span class="accent">FOURO</span>
+                        p.main__section-description – команда профессионалов-единомышленников в области digital-маркетинга, фанатеющих от своей работы. <br><br> Философия нашего агентства проста – создавать эффективные проекты по продвижению бизнеса в цифровой среде.
+                        Button(:buttonText="btnText").main__section-button-third
+            section.main__section.section
+                .container
+                    .main__section-wrapper-fourth
+                        .main__section-leftside
+                            h2.main__section-subtitle разработка сайтов
+                            p.main__section-description Умеем не просто делать новые сайты, или производить апгрейд текущих – мы делаем инструменты для привлечения клиентов и зарабатывания денег.
+                            Button(:buttonText="btnText").main__section-button-fourth
+                        .main__section-rightside
+            section.main__section.section
+                .container
+                    .main__section-wrapper-fifth
+                        .main__section-leftside
+                            h2.main__section-subtitle Анализ и аудит
+                            p.main__section-description Сделаем полный анализ работы сайта - от получения посетителей до нужной конверсии. Проверим тепловые карты, микроконверсии и настроим нужные цели для систем аналитики яндекса, гугла и call-tracking.
+                            Button(:buttonText="btnText").main__section-button-fourth
+                        .main__section-rightside
+            section.main__section.section
+                .container
+                    .main__section-wrapper-sixth
+                        h2.main__section-subtitle реклама и продвижение
+                        p.main__section-description Ваш бизнес может получать рекламный трафик не только из контекста и из социальных сетей. В зависимости от сферы деятельности, эффективность такой рекламы может быить даже выше традиционных платных каналов
+                        Button(:buttonText="btnText").main__section-button-third
+            section.main__section.section
+                .container
+                    .main__section-wrapper-seventh
+                        ul.main__section-cases-list
+                            li(v-for="(caseInfo, index) in cases").main__section-cases-item
+                                h2.main__section-cases-item-subtitle {{ caseInfo.subtitle }}
+                                p.main__section-cases-item-text {{ caseInfo.text }}
+                        .main__section-image-wrapper
+                            img(src="~/assets/images/fish.png").main__section-image-seventh
+                        ul.main__section-works-list
+                            li(v-for="(work, index) in works").main__section-works-item
+                                h2.main__section-works-item-subtitle {{work.subtitle}}
+                                img(:src="work.img").main__section-works-item-img
             section.main__section.section
                 .container
                     .main__section-wrapper-eighth
